@@ -24,6 +24,9 @@
 		D254EAA51C14300600883C18 /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D254EA971C142FE700883C18 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D254EAA61C14300600883C18 /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D254EA981C142FE700883C18 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D254EAA71C14300600883C18 /* SwiftRedux.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D254EA991C142FE700883C18 /* SwiftRedux.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D254EAA91C14315B00883C18 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = D254EAA81C14315B00883C18 /* Action.swift */; };
+		D254EAAB1C1431D800883C18 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D254EAAA1C1431D800883C18 /* Reducer.swift */; };
+		D254EAAF1C14619A00883C18 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D254EAAE1C14619A00883C18 /* AppStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +71,9 @@
 		D254EA971C142FE700883C18 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		D254EA981C142FE700883C18 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		D254EA991C142FE700883C18 /* SwiftRedux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftRedux.framework; path = Carthage/Build/iOS/SwiftRedux.framework; sourceTree = "<group>"; };
+		D254EAA81C14315B00883C18 /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		D254EAAA1C1431D800883C18 /* Reducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		D254EAAE1C14619A00883C18 /* AppStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,9 @@
 				D254EA6D1C14287700883C18 /* Assets.xcassets */,
 				D254EA6F1C14287700883C18 /* LaunchScreen.storyboard */,
 				D254EA721C14287700883C18 /* Info.plist */,
+				D254EAA81C14315B00883C18 /* Action.swift */,
+				D254EAAA1C1431D800883C18 /* Reducer.swift */,
+				D254EAAE1C14619A00883C18 /* AppStore.swift */,
 			);
 			path = reduxSwiftSample;
 			sourceTree = "<group>";
@@ -192,7 +201,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D254EA691C14287700883C18 /* ViewController.swift in Sources */,
+				D254EAAF1C14619A00883C18 /* AppStore.swift in Sources */,
 				D254EA671C14287700883C18 /* AppDelegate.swift in Sources */,
+				D254EAAB1C1431D800883C18 /* Reducer.swift in Sources */,
+				D254EAA91C14315B00883C18 /* Action.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
