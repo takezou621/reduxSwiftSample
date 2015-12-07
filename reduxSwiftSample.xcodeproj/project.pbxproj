@@ -20,14 +20,36 @@
 		D254EA9F1C142FE700883C18 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D254EA981C142FE700883C18 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D254EAA01C142FE700883C18 /* SwiftRedux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D254EA991C142FE700883C18 /* SwiftRedux.framework */; };
 		D254EAA11C142FE700883C18 /* SwiftRedux.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D254EA991C142FE700883C18 /* SwiftRedux.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D254EAA41C14300600883C18 /* RxBlocking.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D254EA961C142FE700883C18 /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D254EAA51C14300600883C18 /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D254EA971C142FE700883C18 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D254EAA61C14300600883C18 /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D254EA981C142FE700883C18 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D254EAA71C14300600883C18 /* SwiftRedux.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D254EA991C142FE700883C18 /* SwiftRedux.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D254EAA91C14315B00883C18 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = D254EAA81C14315B00883C18 /* Action.swift */; };
 		D254EAAB1C1431D800883C18 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D254EAAA1C1431D800883C18 /* Reducer.swift */; };
 		D254EAAF1C14619A00883C18 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D254EAAE1C14619A00883C18 /* AppStore.swift */; };
+		D2E3CD471C15279F00CA040F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D254EA681C14287700883C18 /* ViewController.swift */; };
+		D2E3CD481C15279F00CA040F /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = D254EAA81C14315B00883C18 /* Action.swift */; };
+		D2E3CD491C15279F00CA040F /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D254EAAA1C1431D800883C18 /* Reducer.swift */; };
+		D2E3CD4A1C15279F00CA040F /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D254EAAE1C14619A00883C18 /* AppStore.swift */; };
+		D2E3CD4B1C1528A000CA040F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E3CD2E1C151E2D00CA040F /* Nimble.framework */; };
+		D2E3CD4C1C1528A000CA040F /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E3CD2F1C151E2D00CA040F /* Quick.framework */; };
+		D2E3CD4D1C1528A000CA040F /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D254EA961C142FE700883C18 /* RxBlocking.framework */; };
+		D2E3CD4E1C1528A000CA040F /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D254EA971C142FE700883C18 /* RxCocoa.framework */; };
+		D2E3CD4F1C1528A000CA040F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D254EA981C142FE700883C18 /* RxSwift.framework */; };
+		D2E3CD501C1528A000CA040F /* SwiftRedux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D254EA991C142FE700883C18 /* SwiftRedux.framework */; };
+		D2E3CD511C152AB300CA040F /* CreateStoreSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E3CD2C1C151C6C00CA040F /* CreateStoreSpec.swift */; };
+		D2E3CD531C15325F00CA040F /* BindActionCreatorsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E3CD521C15325F00CA040F /* BindActionCreatorsSpec.swift */; };
+		D2E3CD551C15791C00CA040F /* ActionTypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E3CD541C15791C00CA040F /* ActionTypeSpec.swift */; };
+		D2E3CD561C15793D00CA040F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D254EA661C14287700883C18 /* AppDelegate.swift */; };
+		D2E3CD581C15801400CA040F /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E3CD571C15801400CA040F /* State.swift */; };
+		D2E3CD591C15804400CA040F /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E3CD571C15801400CA040F /* State.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2E3CD3F1C15260E00CA040F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D254EA5B1C14287700883C18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D254EA621C14287700883C18;
+			remoteInfo = reduxSwiftSample;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		D254EAA21C142FE700883C18 /* Embed Frameworks */ = {
@@ -42,19 +64,6 @@
 				D254EA9F1C142FE700883C18 /* RxSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D254EAA31C142FF900883C18 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D254EAA41C14300600883C18 /* RxBlocking.framework in CopyFiles */,
-				D254EAA51C14300600883C18 /* RxCocoa.framework in CopyFiles */,
-				D254EAA61C14300600883C18 /* RxSwift.framework in CopyFiles */,
-				D254EAA71C14300600883C18 /* SwiftRedux.framework in CopyFiles */,
-			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -74,6 +83,14 @@
 		D254EAA81C14315B00883C18 /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		D254EAAA1C1431D800883C18 /* Reducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
 		D254EAAE1C14619A00883C18 /* AppStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		D2E3CD2C1C151C6C00CA040F /* CreateStoreSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateStoreSpec.swift; path = ../CreateStoreSpec.swift; sourceTree = "<group>"; };
+		D2E3CD2E1C151E2D00CA040F /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		D2E3CD2F1C151E2D00CA040F /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		D2E3CD3A1C15260E00CA040F /* reduxSwiftSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reduxSwiftSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E3CD3E1C15260E00CA040F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E3CD521C15325F00CA040F /* BindActionCreatorsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindActionCreatorsSpec.swift; sourceTree = "<group>"; };
+		D2E3CD541C15791C00CA040F /* ActionTypeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionTypeSpec.swift; sourceTree = "<group>"; };
+		D2E3CD571C15801400CA040F /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,17 +105,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2E3CD371C15260E00CA040F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E3CD4B1C1528A000CA040F /* Nimble.framework in Frameworks */,
+				D2E3CD4C1C1528A000CA040F /* Quick.framework in Frameworks */,
+				D2E3CD4D1C1528A000CA040F /* RxBlocking.framework in Frameworks */,
+				D2E3CD4E1C1528A000CA040F /* RxCocoa.framework in Frameworks */,
+				D2E3CD4F1C1528A000CA040F /* RxSwift.framework in Frameworks */,
+				D2E3CD501C1528A000CA040F /* SwiftRedux.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		D254EA5A1C14287700883C18 = {
 			isa = PBXGroup;
 			children = (
+				D2E3CD2E1C151E2D00CA040F /* Nimble.framework */,
+				D2E3CD2F1C151E2D00CA040F /* Quick.framework */,
 				D254EA961C142FE700883C18 /* RxBlocking.framework */,
 				D254EA971C142FE700883C18 /* RxCocoa.framework */,
 				D254EA981C142FE700883C18 /* RxSwift.framework */,
 				D254EA991C142FE700883C18 /* SwiftRedux.framework */,
 				D254EA651C14287700883C18 /* reduxSwiftSample */,
+				D2E3CD3B1C15260E00CA040F /* reduxSwiftSampleTests */,
 				D254EA641C14287700883C18 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				D254EA631C14287700883C18 /* reduxSwiftSample.app */,
+				D2E3CD3A1C15260E00CA040F /* reduxSwiftSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,11 +154,23 @@
 				D254EA6D1C14287700883C18 /* Assets.xcassets */,
 				D254EA6F1C14287700883C18 /* LaunchScreen.storyboard */,
 				D254EA721C14287700883C18 /* Info.plist */,
+				D2E3CD571C15801400CA040F /* State.swift */,
 				D254EAA81C14315B00883C18 /* Action.swift */,
 				D254EAAA1C1431D800883C18 /* Reducer.swift */,
 				D254EAAE1C14619A00883C18 /* AppStore.swift */,
 			);
 			path = reduxSwiftSample;
+			sourceTree = "<group>";
+		};
+		D2E3CD3B1C15260E00CA040F /* reduxSwiftSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2E3CD2C1C151C6C00CA040F /* CreateStoreSpec.swift */,
+				D2E3CD521C15325F00CA040F /* BindActionCreatorsSpec.swift */,
+				D2E3CD541C15791C00CA040F /* ActionTypeSpec.swift */,
+				D2E3CD3E1C15260E00CA040F /* Info.plist */,
+			);
+			path = reduxSwiftSampleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +184,7 @@
 				D254EA601C14287700883C18 /* Frameworks */,
 				D254EA611C14287700883C18 /* Resources */,
 				D254EAA21C142FE700883C18 /* Embed Frameworks */,
-				D254EAA31C142FF900883C18 /* CopyFiles */,
+				D2E3CD451C15267300CA040F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -148,6 +194,25 @@
 			productName = reduxSwiftSample;
 			productReference = D254EA631C14287700883C18 /* reduxSwiftSample.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D2E3CD391C15260E00CA040F /* reduxSwiftSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E3CD411C15260E00CA040F /* Build configuration list for PBXNativeTarget "reduxSwiftSampleTests" */;
+			buildPhases = (
+				D2E3CD361C15260E00CA040F /* Sources */,
+				D2E3CD371C15260E00CA040F /* Frameworks */,
+				D2E3CD381C15260E00CA040F /* Resources */,
+				D2E3CD441C15262D00CA040F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2E3CD401C15260E00CA040F /* PBXTargetDependency */,
+			);
+			name = reduxSwiftSampleTests;
+			productName = reduxSwiftSampleTests;
+			productReference = D2E3CD3A1C15260E00CA040F /* reduxSwiftSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -160,6 +225,9 @@
 				ORGANIZATIONNAME = "Takeshi Kawai";
 				TargetAttributes = {
 					D254EA621C14287700883C18 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					D2E3CD391C15260E00CA040F = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
 				};
@@ -178,6 +246,7 @@
 			projectRoot = "";
 			targets = (
 				D254EA621C14287700883C18 /* reduxSwiftSample */,
+				D2E3CD391C15260E00CA040F /* reduxSwiftSampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -193,7 +262,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2E3CD381C15260E00CA040F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D2E3CD441C15262D00CA040F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftRedux.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		D2E3CD451C15267300CA040F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftRedux.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D254EA5F1C14287700883C18 /* Sources */ = {
@@ -205,10 +322,35 @@
 				D254EA671C14287700883C18 /* AppDelegate.swift in Sources */,
 				D254EAAB1C1431D800883C18 /* Reducer.swift in Sources */,
 				D254EAA91C14315B00883C18 /* Action.swift in Sources */,
+				D2E3CD581C15801400CA040F /* State.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E3CD361C15260E00CA040F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E3CD561C15793D00CA040F /* AppDelegate.swift in Sources */,
+				D2E3CD531C15325F00CA040F /* BindActionCreatorsSpec.swift in Sources */,
+				D2E3CD511C152AB300CA040F /* CreateStoreSpec.swift in Sources */,
+				D2E3CD551C15791C00CA040F /* ActionTypeSpec.swift in Sources */,
+				D2E3CD471C15279F00CA040F /* ViewController.swift in Sources */,
+				D2E3CD591C15804400CA040F /* State.swift in Sources */,
+				D2E3CD481C15279F00CA040F /* Action.swift in Sources */,
+				D2E3CD491C15279F00CA040F /* Reducer.swift in Sources */,
+				D2E3CD4A1C15279F00CA040F /* AppStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2E3CD401C15260E00CA040F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D254EA621C14287700883C18 /* reduxSwiftSample */;
+			targetProxy = D2E3CD3F1C15260E00CA040F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D254EA6A1C14287700883C18 /* Main.storyboard */ = {
@@ -341,6 +483,28 @@
 			};
 			name = Release;
 		};
+		D2E3CD421C15260E00CA040F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
+				INFOPLIST_FILE = reduxSwiftSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.lifelog.reduxSwiftSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2E3CD431C15260E00CA040F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
+				INFOPLIST_FILE = reduxSwiftSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.lifelog.reduxSwiftSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -361,6 +525,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D2E3CD411C15260E00CA040F /* Build configuration list for PBXNativeTarget "reduxSwiftSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E3CD421C15260E00CA040F /* Debug */,
+				D2E3CD431C15260E00CA040F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

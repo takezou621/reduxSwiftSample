@@ -9,10 +9,16 @@
 import Foundation
 import SwiftRedux
 
-struct IncrementAction:SimpleStandardAction {
-    let meta: Any? = nil
-    let error: Bool = false
-    let rawPayload: Int = 1
+struct IncrementAction:StandardAction {
+    let meta: Any?
+    let error: Bool
+    let rawPayload: Int
+    
+    init(payload: Int? = nil, meta: Any? = nil, error: Bool = false) {
+        self.rawPayload = payload ?? 1
+        self.meta = meta
+        self.error = error
+    }
 }
 
 struct AddRowAction: StandardAction {

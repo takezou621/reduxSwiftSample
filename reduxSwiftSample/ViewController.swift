@@ -49,11 +49,13 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
     
     @IBAction func incrementAction(sender: AnyObject) {
-        store.dispatch(IncrementAction())
+        let increment = bindActionCreators(IncrementAction.self, dispatch: store.dispatch)
+        increment(payload: 1)
     }
     
     @IBAction func addRowAction(sender: AnyObject) {
-        store.dispatch(AddRowAction(payload: AddRowAction.Country(name:"Japan")))
+        let addRow = bindActionCreators(AddRowAction.self, dispatch: store.dispatch)
+        addRow(payload: AddRowAction.Country(name: "Japan"))
     }
     
     // MARK: UITableView
