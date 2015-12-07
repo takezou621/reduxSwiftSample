@@ -9,12 +9,6 @@
 import Foundation
 import SwiftRedux
 
-struct AppState: State {
-    let counter: Int!
-    let countries:[String]!
-}
-
-
 func applicationReducer(state: State? = nil, action:Action)-> State{
     let appState = state as! AppState?
     
